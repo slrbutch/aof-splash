@@ -1,0 +1,79 @@
+<div class="content_main_shell">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="breadcrumb_shell">
+          <a href="https://facilitating.ca/"><div class="breadcrumb_text hover">Home</div></a>
+          <div class="breadcrumb_chev">l</div>
+          <div class="breadcrumb_text alt">Page Not Found</div>
+
+          <div class="shop_filter_trig_shell hover" style="display:none;">
+            <div class="shop_filter_trig_icon">y</div>
+            <div class="shop_filter_trig_text">Filter</div>
+          </div>
+          <div class="shop_search_trig_shell hover">
+            <div class="shop_search_trig_icon">v</div>
+            <div class="shop_search_trig_text">Search</div>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shop_search_drop_shell" style="display:none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <form action="/search" method="get" role="search">
+            <div class="shop_search_drop_input_shell">
+              <input class="shop_search_input" name="q" type="search" id="search-field" placeholder="Enter your search term..." valuex="{{ search.terms | escape }}" />
+            </div>
+            <div class="shop_search_drop_button_shell">
+              <input class="shop_search_btn hover" type="submit" value="l" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shop_filter_drop_shell" style="display:none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <select class="sort-by right">
+            <option value="manual">Featured</option>
+            <option value="price-ascending">Price: Low to High</option>
+            <option value="price-descending">Price: Hight to Low</option>
+            <option value="title-ascending">A-Z</option>
+            <option value="title-descending">Z-A</option>
+            <option value="created-ascending">Oldest to Newest</option>
+            <option value="created-descending">Newest to Oldest</option>
+            <option value="best-selling">Best Selling</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content_horline_top"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="notfound_img_shell">
+
+        </div>
+        <div class="notfound_text_shell">
+          <div class="notfound_text_top">
+            Oooops!
+          </div>
+          <div class="notfound_text_bot">
+            We can't seem to find the page you're looking for (404 Error).<br class="hidden-xs" />
+            <a class="hover" href="https://facilitating.ca/"><b>Click here</b></a> to return to our website.
+
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

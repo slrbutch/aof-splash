@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="min-width=device-width, initial-scale=1">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Art of Facilitation</title>
+
+    <meta name="description" content="Join us in mastering facilitation and elevate your leadership to new heights.">
+    <link rel="image_src" href="https://facilitating.ca/web_img.jpg" />
+    <link rel="apple-touch-icon" href="https://facilitating.ca/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://facilitating.ca/android-icon.png">
+    <link rel="icon" type="image/png" href="https://facilitating.ca/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://facilitating.ca/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://facilitating.ca/favicon-128x128.png" sizes="128x128" />
+    <meta name="application-name" content="Art of Facilitation"/>
+
+    <meta property="og:title" content="Art of Facilitation">
+    <meta property="og:site_name" content="Art of Facilitation">
+    <meta property="og:description" content="Join us in mastering facilitation and elevate your leadership to new heights.">
+    <meta property="og:image" content="https://facilitating.ca/web_img.jpg">
+    <meta property="og:url" content="https://facilitating.ca">
+    <meta name="twitter:card" content="https://facilitating.ca/web_img.jpg">
+    <meta name="twitter:image:alt" content="Logo">
+
+    <link href="https://facilitating.ca/stylesheets/loading.css" rel="stylesheet" media="screen" />
+    <link href="https://facilitating.ca/stylesheets/fontawesome.css" rel="stylesheet" media="screen" />
+    <link href="https://facilitating.ca/stylesheets/fontawesome_all.css" rel="stylesheet" media="screen" />
+    <link href="https://facilitating.ca/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/fonts.css" rel="stylesheet" media="screen" />
+    <script src="https://facilitating.ca/javascripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="https://facilitating.ca/javascripts/jquery-ui.js" type="text/javascript"></script>
+    <script src="https://facilitating.ca/javascripts/bootstrap.js" type="text/javascript"></script>
+    <script src="https://facilitating.ca/javascripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="https://facilitating.ca/javascripts/modernizr-custom.js" type="text/javascript"></script>
+
+  </head>
+  <body class="body_splash">
+    <div class="splash_back_honeycomb">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="splash_logo_shell">
+              <span>Art of </span>Facilitation
+            </div>
+            <div class="splash_body">
+              <span>Join us</span> in mastering facilitation and elevate your leadership to new heights. The Art of Facilitation™: Ignite Collaboration.
+            </div>
+            <div class="splash_btn_shell">
+              <a href="mailto:info@facilitating.ca"
+                <div class="splash_btn hover">
+                <span>Contact</span> Us <br />
+                info@facilitating.ca
+                </div>
+              </a>
+              <div class="splash_btn alt">
+                <span>Stay tuned</span> for more <br />
+                information and courses
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div style="height:75px; width:5px; background-color:transparent;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script>
+  $(document).ready(function() {
+    Cookies.remove('template-contact');
+    Cookies.remove('template-url');
+    Cookies.remove('template-widget');
+    Cookies.remove('template-style');
+    Cookies.remove('template-intro-seen');
+    Cookies.remove('template-widget-seen');
+    Cookies.remove('template-contact-seen');
+    Cookies.remove('template-cta-seen');
+    Cookies.remove('item_count');
+    Cookies.remove('variant_colour');
+    Cookies.remove('variant_text');
+
+    parent.history.back();
+    return false;
+  });
+</script>
+
+
+
+
+    <script src="https://facilitating.ca/javascripts/jquery.matchHeight-min.js"></script>
+    <script src="https://facilitating.ca/javascripts/jquery.lazy.min.js"></script>
+
+
+    <script>
+      $( document ).ready(function () {
+        $('.lazy').lazy({
+          effect: "fadeIn",
+          effectTime: 500,
+          threshold: 0
+        });
+      });
+
+      $( document ).ready(function () {
+        setTimeout(
+          function()
+          {
+            var boxHeight = $('.loading_shell').outerHeight();
+            var windowHeight = $(window).height()
+            var dif = ((windowHeight - boxHeight) / 2) - 10
+            $('.loading_shell').attr('style', 'padding-top: ' + dif + 'px;');
+            $('.loading_outershell').height(windowHeight);
+          }, 100);
+
+      });
+      $(window).resize(function() {
+        setTimeout(
+          function()
+          {
+            var boxHeight = $('.loading_shell').outerHeight();
+            var windowHeight = $(window).height()
+            var dif = ((windowHeight - boxHeight) / 2) - 10
+            $('.loading_shell').attr('style', 'padding-top: ' + dif + 'px;');
+            $('.loading_outershell').height(windowHeight);
+          }, 100);
+
+      });
+    </script>
+
+  </body>
+  </html>
